@@ -9,8 +9,8 @@
 .main-grid {
   display: grid;
   grid-template-columns: 0.8fr 2fr 2fr; 
-  height: 100vh;
-  max-height: 100px;
+    height: 100vh;
+      /* border: 1px solid red; */
 }
 
 /* @media (max-width: 1200px) {

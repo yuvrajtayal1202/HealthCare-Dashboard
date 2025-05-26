@@ -6,9 +6,11 @@
     background-color: rgb(246 250 255);
     width: 15vw;
     position: relative;
+    height: 100vh;
   }
 .sidebar-main h1{
   margin: 50px;
+  margin-block: 2.5vh;
 }
 .sidebar-main h1 #h1-span1{
   color: rgb(0, 180, 180);

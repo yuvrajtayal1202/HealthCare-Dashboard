@@ -1,19 +1,20 @@
 .date-main{
     width: 41.5vw;
     background-color: rgb(246 250 255);
+    overflow: hidden;
 }
 
 .main-wrapper {
   margin: auto;
   background: #ccc;
-  margin-top: 50px;
+  margin-top: 1.5vh;
 }
 
-.calendar-container,
-.upcoming-container {
+.calendar-container {
   border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 30px;
+  padding-inline: 20px;
+  padding-block: 2vh;
+  margin-bottom: 2vh;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -21,8 +22,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-    margin-top: 20px;
-
+    margin-top: 0.3vh;
+  max-height: 6vh;
 }
 
 .calender-header-con{
@@ -30,13 +31,13 @@
  gap: 3px;
 }
 .calender-header-icon{
-font-size: 50px;
+font-size: 2.5rem;
 }
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 0.5rem;
-  margin-top: 20px;
+  margin-top: 1vh;
   align-items: center;
 }
 
@@ -65,7 +66,7 @@ font-size: 50px;
     gap: 30px;
 }
 .appointment-card {
-  margin-top: 20px;
+  margin-top: 1h;
   padding: 15px;
   border-radius: 10px;
 }
@@ -79,10 +80,18 @@ font-size: 50px;
   background: #f3e8ff;
 }
 
-.day-section {
-  margin-top: 20px;
+
+.upcoming-container {
+  border-radius: 12px;
+  padding-inline: 20px;
+  padding-block: 1vh;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
+.day-section {
+  margin-top: 1vh;
+}
 .card-row {
   display: flex;
   gap: 20px;
@@ -92,7 +101,7 @@ font-size: 50px;
 
 .simple-card {
   background: #f3e8ff;
-  padding: 15px;
+  padding: 1vh;
   border-radius: 10px;
   width: 220px;
 }
