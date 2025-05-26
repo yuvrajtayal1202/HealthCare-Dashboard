@@ -1,5 +1,6 @@
 .date-main{
-    border: 2px solid green;
+    width: 41.5vw;
+    background-color: rgb(246 250 255);
 }
 
 .main-wrapper {
@@ -34,14 +35,16 @@ font-size: 50px;
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
+  gap: 0.5rem;
   margin-top: 20px;
+  align-items: center;
 }
 
 .calendar-day {
   background: #fafafa;
   padding: 10px;
   border-radius: 8px;
+  width: 100%;
 }
 
 .calendar-slot {

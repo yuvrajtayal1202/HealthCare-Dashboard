@@ -2,7 +2,7 @@ import "./Dashboard.css";
 import { FiSearch } from "react-icons/fi";
 import { IoMdNotifications } from "react-icons/io";
 import Activity from "./Activity";
-
+import bodyImg from "../../assets/body.png";
 export default function Dashboard() {
   return (
     <main className="dashboard-outer">
@@ -20,7 +20,7 @@ export default function Dashboard() {
         </div>
         <div className="main-dash">
           <div className="main-dash-left">
-            <img src="../../public/body.png" alt="" />
+            <img src={bodyImg} alt="" />
             <span id="span-1">❤️ Healthy Heart</span>
             <span id="span-2">🦵 Healthy Leg</span>
             <div class="bottom-bar">

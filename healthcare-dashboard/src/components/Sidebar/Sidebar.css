@@ -4,6 +4,8 @@
   /* border: 2px solid red; */
   align-items: center;
     background-color: rgb(246 250 255);
+    width: 15vw;
+    position: relative;
   }
 .sidebar-main h1{
   margin: 50px;
@@ -45,6 +47,28 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  font-size: 20px;
+  font-size: 1.2rem;
   cursor: pointer;
 }
+
+/* @media (max-width: 768px) {
+  .sidebar-main {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .sidebar-main nav {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .sidebar-main nav ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  #settings {
+    position: static;
+  }
+} */

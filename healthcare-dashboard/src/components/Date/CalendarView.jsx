@@ -21,9 +21,9 @@ const CalendarView = () => {
       <div className="calendar-grid">
         {[
           "Mon 25",
-          "Tues 26",
+          "Tue 26",
           "Wed 27",
-          "Thurs 28",
+          "Thu 28",
           "Fri 29",
           "Sat 30",
           "Sun 31",
@@ -34,7 +34,7 @@ const CalendarView = () => {
               <div
                 key={tIdx}
                 className={
-                  day.includes("Tues", "Thurs") && time == "09:00"
+                  day.includes("Tue", "Thu") && time == "09:00"
                     ? "calendar-slot selected"
                     : "calendar-slot"
                 }

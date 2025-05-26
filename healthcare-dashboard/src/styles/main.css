@@ -6,8 +6,24 @@
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
 }
-.main-grid{
+.main-grid {
   display: grid;
-    grid-template-columns: 0.6fr 2fr 2fr;
-    height: 100vh;
+  grid-template-columns: 0.8fr 2fr 2fr; 
+  height: 100vh;
+  max-height: 100px;
 }
+
+/* @media (max-width: 1200px) {
+  .main-grid {
+    grid-template-columns: 0.3fr 0.5fr 1fr;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+} */
+
