@@ -1,0 +1,95 @@
+.date-main{
+    border: 2px solid green;
+}
+
+.main-wrapper {
+  margin: auto;
+  background: #ccc;
+  margin-top: 50px;
+}
+
+.calendar-container,
+.upcoming-container {
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    margin-top: 20px;
+
+}
+
+.calender-header-con{
+ display: flex;
+ gap: 3px;
+}
+.calender-header-icon{
+font-size: 50px;
+}
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.calendar-day {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.calendar-slot {
+  margin: 5px 0;
+  padding: 5px;
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.selected {
+  background: #4f46e5;
+  color: white;
+  font-weight: bold;
+}
+.appointment-card-con{
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 30px;
+}
+.appointment-card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.blue-card {
+  background: #4f46e5;
+  color: white;
+}
+
+.light-card {
+  background: #f3e8ff;
+}
+
+.day-section {
+  margin-top: 20px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.simple-card {
+  background: #f3e8ff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+}

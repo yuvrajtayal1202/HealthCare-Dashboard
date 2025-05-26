@@ -1,0 +1,13 @@
+/* @import './variables.css'; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+.main-grid{
+  display: grid;
+    grid-template-columns: 0.6fr 2fr 2fr;
+    height: 100vh;
+}
